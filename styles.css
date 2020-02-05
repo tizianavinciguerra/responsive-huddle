@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; color: white; margin-top: 4rem;}
+.attribution a { color: #00B9FA; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #674BB1;
+  text-align: center;
+  background-size: 100%;
+  margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.text p {
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.content {
+  width: 100%;
+}
+
+.img img {
+  width: 27rem;
+}
+
+.logo img {
+  width: 12rem;
+  position: relative;
+  left: -100px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #674BB1;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 20rem;
+}
+
+.button:hover {
+  background-color: #E752D0;
+}
+
+.text {
+  width: 25rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.logo {
+  margin: 3rem auto 5rem;
+  width: 25rem;
+}
+
+@media screen and (min-width: 1300px) {
+
+  body {
+    background-image: url("images/bg-desktop.svg");
+    width: 100%;
+  }
+
+  .content {
+    height: 40rem;
+    width: 80rem;
+    position: relative;
+    margin: auto;
+  }
+
+  .logo {
+    position: absolute;
+    width: 29rem;
+    top: 2rem;
+  }
+
+  .img {
+    position: absolute;
+    top: 15rem;
+  }
+
+  .img img {
+    width: 90%;
+  }
+
+  .text {
+    position: absolute;
+    right: 2rem;
+    top: 13rem;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
+  }
+}
